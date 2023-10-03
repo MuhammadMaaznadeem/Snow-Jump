@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc96ef0b0170f143920b9fbe94b091a, type: 3}
+  m_Name: RegularPlayerStats
+  m_EditorClassIdentifier: 
+  pushForce: 4
+  snapForce: 15
+  slideForce: 10
+  rotationSpeed: 970
+  minReboundForce: 10
+  gravity: 38
+  acceleration: 13
+  deceleration: 28
+  friction: 16
+  topSpeed: 6
+  turningDrag: 28
+  runningAcceleration: 16
+  runningTopSpeed: 7.5
+  runningTurningDrag: 14
+  multiJumps: 1
+  jumpDamage: 1
+  coyoteJumpThreshold: 0.15
+  maxJumpHeight: 17
+  minJumpHeight: 10
+  crouchHeight: 1
+  crouchFriction: 10
+  crawlingAcceleration: 8
+  crawlingFriction: 32
+  crawlingTopSpeed: 2.5
+  crawlingTurningSpeed: 3
+  canWallDrag: 1
+  wallDragGravity: 12
+  wallJumpDistance: 8
+  wallJumpHeight: 15
+  canPoleClimb: 1
+  climbUpSpeed: 3
+  climbDownSpeed: 8
+  climbRotationSpeed: 2
+  poleJumpDistance: 8
+  poleJumpHeight: 15
+  waterConversion: 0.35
+  waterRotationSpeed: 360
+  waterUpwardsForce: 8
+  waterJumpHeight: 15
+  waterTurningDrag: 2.5
+  swimAcceleration: 4
+  swimDeceleration: 3
+  swimTopSpeed: 4
+  swimDiveForce: 15
+  hurtUpwardForce: 10
+  hurtBackwardsForce: 5
