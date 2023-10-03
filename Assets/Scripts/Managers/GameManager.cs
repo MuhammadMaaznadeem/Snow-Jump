@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelHandler : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
 
     public GameObject[] Levels;
@@ -17,8 +17,8 @@ public class LevelHandler : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void ApplicationQuit()
     {
-        
+        Application.Quit();
     }
 }
