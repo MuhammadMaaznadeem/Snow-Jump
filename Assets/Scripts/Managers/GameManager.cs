@@ -16,8 +16,7 @@ public class GameManager : MonoBehaviour
         Levels[GameConstant.LevelNumber].SetActive(true);
     }
 
-    // Update is called once per frame
-    void ApplicationQuit()
+    public void ApplicationQuit()
     {
         Application.Quit();
     }

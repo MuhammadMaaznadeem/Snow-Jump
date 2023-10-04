@@ -9351,6 +9351,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 641041466}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &641041468 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4930133360337274826, guid: eb54d0af9280cde4181240aad9bbf777,
+    type: 3}
+  m_PrefabInstance: {fileID: 641041466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &641041469
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641041468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 5.305218, z: 0.089436345}
+  m_Center: {x: 0, y: 2.152609, z: 0.45528182}
 --- !u!1001 &643450107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10167,7 +10186,7 @@ GameObject:
   - component: {fileID: 690754463}
   - component: {fileID: 690754462}
   m_Layer: 5
-  m_Name: QUIT Button (1)
+  m_Name: QUIT Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10238,10 +10257,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1612839040}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 925376356}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ApplicationQuit
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -14287,7 +14306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1005056589
 Transform:
   m_ObjectHideFlags: 0
@@ -14742,6 +14761,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1043979757}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1043979759 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4930133360337274826, guid: eb54d0af9280cde4181240aad9bbf777,
+    type: 3}
+  m_PrefabInstance: {fileID: 1043979757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1043979760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043979759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4.887778, z: 0.07350464}
+  m_Center: {x: 0, y: 1.9438889, z: 0.4632477}
 --- !u!1001 &1046583653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15982,6 +16020,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb54d0af9280cde4181240aad9bbf777, type: 3}
+--- !u!1 &1131739137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4930133360337274826, guid: eb54d0af9280cde4181240aad9bbf777,
+    type: 3}
+  m_PrefabInstance: {fileID: 1131739136}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1131739138
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131739137}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.5741196, z: 0.122937016}
+  m_Center: {x: 0, y: 2.7870598, z: 0.4385315}
 --- !u!1001 &1132794595
 PrefabInstance:
   m_ObjectHideFlags: 0

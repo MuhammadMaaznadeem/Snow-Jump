@@ -17,11 +17,12 @@ public class LevelCompleteTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        GameConstant.LevelNumber++;
+
         if (GameConstant.LevelNumber > 2)
         {
             GameConstant.LevelNumber = Random.Range(0, 3);
         }
-        GameConstant.LevelNumber++;
         UI.SetActive(false);
         StartCoroutine(LevelLoadDelay());
     }
