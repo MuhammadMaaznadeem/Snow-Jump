@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\HP\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\HP\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Snow-Jump.-1952154614.00" t="ExcludeRecursive" />
-    <e p="E:\Unity\Projects\Git\Snow-Jump" t="IncludeRecursive">
+    <e p="C:\Users\Lenovo\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Lenovo\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Snow-Jump.1562934535.00" t="ExcludeRecursive" />
+    <e p="D:\FYP GAME\Snow-Jump" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -137,6 +137,13 @@
             </e>
           </e>
         </e>
+        <e p="Maaz Game UI" t="Include">
+          <e p="Exit Panel" t="Include" />
+          <e p="LEVEL COMPLETE" t="Include" />
+          <e p="Level Failed" t="Include" />
+          <e p="Main Menu" t="Include" />
+          <e p="Pause Penl" t="Include" />
+        </e>
         <e p="PLAYER TWO" t="Include">
           <e p="Platformer Project" t="Include">
             <e p="Examples" t="Include">
@@ -146,6 +153,9 @@
               <e p="Audios" t="Include">
                 <e p="Effects" t="Include" />
                 <e p="Musics" t="Include" />
+              </e>
+              <e p="fatal_fighter" t="Include">
+                <e p="More Info.txt" t="Include" />
               </e>
               <e p="Materials" t="Include">
                 <e p="Models" t="Include" />
@@ -293,7 +303,9 @@
               </e>
             </e>
             <e p="Editor-Assets" t="Include">
-              <e p="GUI-Icons" t="Include" />
+              <e p="GUI-Icons" t="Include">
+                <e p="New Folder" t="Include" />
+              </e>
             </e>
             <e p="Extra" t="Include">
               <e p="AxisEvent.cs" t="Include" />
@@ -633,6 +645,7 @@
             <e p="Textures" t="Include" />
           </e>
         </e>
+        <e p="UIAssets" t="Include" />
       </e>
       <e p="Boxophobic.SkyboxCubemapExtended.Editor.csproj" t="IncludeRecursive" />
       <e p="Boxophobic.Utils.Editor.csproj" t="IncludeRecursive" />
