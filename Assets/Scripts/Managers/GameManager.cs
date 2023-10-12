@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
 
     public GameObject[] Levels;
+
+    public AudioSource[] audioSources;
     // Start is called before the first frame update
     void Awake()
     {
@@ -36,4 +38,20 @@ public class GameManager : MonoBehaviour
         TimeScaleReset();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    public void Toggle(bool state)
+    {
+        if(state)
+        {
+            AudioListener.pause = false;
+
+        }
+        else
+        {
+            AudioListener.pause = true;
+
+        }
+
+    }
+    
 }

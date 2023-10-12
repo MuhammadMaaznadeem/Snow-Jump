@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5dffcf451e2e5f249a8bc8a701e62897
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - FancyPants
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3a97bc61dc12edf46ba8b9f6453d21ac, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

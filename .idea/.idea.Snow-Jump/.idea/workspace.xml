@@ -32,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Triggers/LevelCompleteTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/LowPolyWater_Pack/Scripts/Editor/GeneratePlane.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Snow Shader/Shader/Snow.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PLAYER TWO/Platformer Project/Scripts/Gamepad/VirtualButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/LowPolyWater_Pack/Scripts/LowPolyWater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RotateGameObject.cs" root0="FORCE_HIGHLIGHTING" />
@@ -90,6 +91,8 @@
       <workItem from="1697028518352" duration="1956000" />
       <workItem from="1697043555750" duration="336000" />
       <workItem from="1697109394017" duration="1816000" />
+      <workItem from="1697119409619" duration="1755000" />
+      <workItem from="1697126231267" duration="798000" />
     </task>
     <servers />
   </component>

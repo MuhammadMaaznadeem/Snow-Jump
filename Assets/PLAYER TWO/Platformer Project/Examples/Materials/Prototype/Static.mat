@@ -8,9 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Static
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 5fb8a524e614e0c459392d12bb4a6652, type: 3}
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _DESACTIVATEGROUNDSNOW_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,6 +21,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AlbedoA:
+        m_Texture: {fileID: 2800000, guid: 9d0ee18006f81c44aa47591454cdb273, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -36,15 +41,35 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DetailNormals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 6.07}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: bcec5b1b5a9f22a4e90b2ac77b0da995, type: 3}
         m_Scale: {x: 1, y: 6.07}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalnessS:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: 92ff32764464c514891d7526209a3a9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Occlusion:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -56,30 +81,71 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SnowSpecular:
+        m_Texture: {fileID: 2800000, guid: 9d0ee18006f81c44aa47591454cdb273, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snowdetailnormals:
+        m_Texture: {fileID: 2800000, guid: 92ff32764464c514891d7526209a3a9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snownormals:
+        m_Texture: {fileID: 2800000, guid: fe1100c7d726e6944b3041e82e2a5b63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snowtexture:
+        m_Texture: {fileID: 2800000, guid: a165ce609039f0b4990b9430a86e4ff1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
+    - _Coveragecontrol: 0
     - _Cutoff: 0.5
+    - _Desactivategroundsnow: 1
     - _DetailNormalMapScale: 1
+    - _Detailtiling: 15
     - _DstBlend: 0
+    - _GlobalTiling: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.223
     - _GlossyReflections: 1
+    - _GroundSnow: 0.56
+    - _IcinessSpecular: 0
     - _Metallic: 0.37
+    - _Metalness: 0.596
     - _Mode: 0
+    - _NormalsImportance: 0.5
+    - _Normalsintensity: 0.95
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _SharpnessControl: 0.5
+    - _Sharpnesscontrol: 0.58
+    - _Smoothness: 0.35
     - _SmoothnessTextureChannel: 0
+    - _Snownormalsintensity: 0.579
+    - _Snowtiling: 1
     - _SpecularHighlights: 1
+    - _Speculartiling: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _VerticalaxisImportance: 1
+    - _XaxisImportance: 0
     - _ZWrite: 1
+    - _ZaxisImportance: 0
+    - __dirty: 1
     m_Colors:
+    - _Albedocolormodifier: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 0.9565701, g: 1, b: 0.60754716, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Snowcolormodifier: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
