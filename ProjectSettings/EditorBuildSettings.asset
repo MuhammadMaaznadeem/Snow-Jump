@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/SoftSnow/Scenes/Mainmenu.unity
+    guid: 12c40d465590ed4408088f8ae44cc04e
+  - enabled: 1
     path: Assets/SoftSnow/Scenes/gameplay.unity
     guid: 852a961c7aafda749b6237162b57e714
   m_configObjects: {}

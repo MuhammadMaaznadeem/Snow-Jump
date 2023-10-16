@@ -11,7 +11,7 @@ public class LevelCompleteTrigger : MonoBehaviour
 
     private void Start()
     {
-        UI = GameObject.FindObjectOfType<UiTag>().gameObject;
+       // UI = GameObject.FindObjectOfType<UiTag>().gameObject;
     }
 
 
@@ -23,10 +23,14 @@ public class LevelCompleteTrigger : MonoBehaviour
         {
             GameConstant.LevelNumber = Random.Range(0, 3);
         }
-        UI.SetActive(false);
-        StartCoroutine(LevelLoadDelay());
+        UI.SetActive(true);
+        
     }
 
+    public void NextLevel()
+    {
+        StartCoroutine(LevelLoadDelay());
+    }
     IEnumerator LevelLoadDelay()
     {
         yield return new WaitForSeconds(1);

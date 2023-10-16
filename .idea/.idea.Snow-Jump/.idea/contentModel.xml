@@ -584,6 +584,7 @@
         </e>
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Level.cs" t="Include" />
           <e p="Managers" t="Include">
             <e p="GameConstant.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
