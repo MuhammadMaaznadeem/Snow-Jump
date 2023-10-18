@@ -55,10 +55,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/PLAYER TWO/Platformer Project/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/PLAYER TWO/Platformer Project/Scripts/Player/PlayerStateManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/LevelCompleteTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
+        <option value="$PROJECT_DIR$/Assets/PLAYER TWO/Platformer Project/Scripts/Player/Player.cs" />
       </list>
     </option>
   </component>
@@ -114,6 +114,8 @@
       <workItem from="1697202523194" duration="3000" />
       <workItem from="1697205302192" duration="4017000" />
       <workItem from="1697295194526" duration="965000" />
+      <workItem from="1697518539817" duration="1007000" />
+      <workItem from="1697526101359" duration="420000" />
     </task>
     <servers />
   </component>
